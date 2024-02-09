@@ -1,0 +1,698 @@
+/* ==================== MEDIA @768PX ========================= */
+@media screen and (min-width: 768px) {
+
+  /* ==================== APP-BAR ========================= */
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 2.75em;
+  }
+
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+  }
+
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    font-size: 1.25em;
+  }
+
+  /* ==================== END APP-BAR ========================= */
+
+  /* ==================== MAIN ========================= */
+
+  .section {
+    padding: 40px;
+  }
+
+  /* ==================== END MAIN ========================= */
+
+  /* ==================== HOMEPAGE ========================= */
+
+  /* -------------------- Jumbotron -------------------- */
+
+  .jumbotron__image-box {
+    max-width: 100%;
+  }
+
+  .jumbotron__desc-container h1 {
+    font-size: 2.75em;
+  }
+
+  .jumbotron__desc-container p {
+    font-size: 1.25em;
+  }
+
+  .jumbotron__desc-container a {
+    font-size: 1.25em;
+    padding: 6px 24px;
+  }
+
+  /* -------------------- End Jumbotron -------------------- */
+
+  /* -------------------- About -------------------- */
+
+  .about {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about__image {
+    width: 50%;
+    display: block;
+  }
+
+  .about__desc {
+    width: 50%;
+  }
+
+  .about__desc h1 {
+    font-size: 2.75em;
+    text-align: right;
+  }
+
+  .about__desc p {
+    font-size: 1.25em;
+    text-align: right;
+    margin: 0 0 0 auto;
+  }
+
+  .about__decoration {
+    display: none;
+  }
+
+  /* -------------------- End About -------------------- */
+
+  /* -------------------- Features -------------------- */
+
+  .feature h1 {
+    font-size: 2.75em;
+  }
+
+  .feature__description {
+    font-size: 1.25em;
+  }
+
+  .feature__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .feature__container__card h3 {
+    font-size: 1.25em;
+  }
+
+  .feature__container__card p {
+    font-size: 0.875em;
+  }
+
+  .feature__decoration-1 {
+    width: 64px;
+    top: 8px;
+    right: 8px;
+  }
+
+  .feature__decoration-2 {
+    width: 40px;
+    top: 12px;
+    right: 80px;
+  }
+
+  .feature__decoration-3 {
+    width: 32px;
+    top: 72px;
+    right: 12px;
+  }
+
+  .feature__decoration-4 {
+    width: 32px;
+    top: 108px;
+    right: 12px;
+  }
+
+  .feature__decoration-5 {
+    width: 72px;
+    bottom: 12px;
+    left: 10px;
+  }
+
+  .feature__decoration-6 {
+    width: 48px;
+    bottom: 5px;
+    left: 72px;
+  }
+
+  /* -------------------- End eatures -------------------- */
+
+  /* -------------------- Latest Recipe -------------------- */
+
+  .latest-recipe h1 {
+    font-size: 2.75em;
+  }
+
+  .latest-recipe__description {
+    font-size: 1.25em;
+  }
+
+  .latest-recipe__recipe-container {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto 40px;
+  }
+
+  .latest-recipe__btn-selengkapnya {
+    width: 25%;
+  }
+
+  .latest-recipe__decoration-1 {
+    width: 75px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .latest-recipe__decoration-2 {
+    width: 60px;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  /* -------------------- End Latest Recipe -------------------- */
+
+  /* -------------------- Our Team -------------------- */
+
+  .team p {
+    font-size: 1em;
+  }
+
+  .team h1 {
+    font-size: 2.75em;
+  }
+
+  .team__description {
+    font-size: 1.25em;
+  }
+
+  .team__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .team__container__card___content p {
+    font-size: 0.875em;
+  }
+
+  .team__decoration-1 {
+    width: 80px;
+    bottom: 5px;
+    left: 18px;
+  }
+
+  .team__decoration-2 {
+    width: 130px;
+    top: 10px;
+    right: 8px;
+  }
+
+  /* -------------------- End Our Team -------------------- */
+
+  /* ==================== END HOMEPAGE ==================== */
+
+  /* ==================== RECIPE SEARCH PAGE ====================*/
+
+  .recipes__search-bar input {
+    width: 50%;
+    padding: 14px;
+  }
+
+  .recipes__title {
+    font-size: 2.75em;
+  }
+
+  .recipes__recipe-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .recipes__filter-card {
+    width: 45%;
+  }
+
+  /* ==================== END RECIPE SEARCH PAGE ====================*/
+
+  /* ==================== ARTICLES PAGE ====================*/
+
+  .article__title {
+    font-size: 2.75em;
+  }
+
+  .article__article-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  /* ==================== REND ARTICLES PAGE ====================*/
+
+  /* ==================== RECIPE DETAIL PAGE ====================*/
+
+  .recipe-detail {
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .recipe-detail__title {
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 0px;
+  }
+
+  .recipe-detail__left-side {
+    width: 53%;
+  }
+
+  .recipe-detail__right-side {
+    width: 44%;
+  }
+
+  .recipe-detail__information {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .recipe-detail__ingredients h5 {
+    font-size: 1.25em;
+  }
+
+  .recipe-detail__ingredients ul li {
+    font-size: 1em;
+  }
+
+  .recipe-detail__equipments h5 {
+    font-size: 1.25em;
+  }
+
+  .recipe-detail__equipments ul li {
+    font-size: 1em;
+  }
+
+  .recipe-detail__instructions h5 {
+    font-size: 1.25em;
+  }
+
+  .recipe-detail__instructions ol li {
+    font-size: 1em;
+  }
+
+  .recipe-detail__summary h5 {
+    font-size: 1.25em;
+  }
+
+  .recipe-detail__summary p {
+    font-size: 1em;
+  }
+
+  .recipe-detail__nutritions h5 {
+    font-size: 1.25em;
+  }
+
+  .recipe-detail__nutrition__item__head {
+    font-size: 0.875em;
+  }
+
+  .recipe-detail__nutrition__item__body {
+    font-size: 0.75em;
+  }
+
+  .recipe-detail__similar-recipe h5 {
+    font-size: 1.25em;
+  }
+
+  .recipe-detail__similar-recipe__item p {
+    font-size: 0.875em;
+    font-weight: 500;
+  }
+
+  .recipe-detail__similar-recipe__item span {
+    font-size: 0.75em;
+  }
+
+  /* ==================== END RECIPE DETAIL PAGE ====================*/
+
+  /* ==================== FAVORITE RECIPE PAGE ====================*/
+
+  .favorite-recipes__title {
+    font-size: 2.75em;
+  }
+
+  .favorite-recipes__recipe-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  /* ==================== END FAVORITE RECIPE PAGE ====================*/
+
+  .like {
+    width: 64px;
+    height: 64px;
+    bottom: 16px;
+    right: 40px;
+  }
+
+  .loader {
+    width: 72px;
+    height: 72px;
+    bottom: 64px;
+    right: 40px;
+  }
+
+  /* ==================== FOOTER ====================*/
+
+  footer p {
+    font-size: 1em;
+  }
+
+  /* ==================== END FOOTER ====================*/
+
+}
+
+/* ==================== END MEDIA @768PX ========================= */
+
+/* ==================== MEDIA @1280PX ========================= */
+
+@media screen and (min-width: 1280px) {
+  .app-bar {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 2.75em;
+  }
+
+  .app-bar .app-bar__navigation ul li a {
+    font-size: 1.4em;
+    margin-right: 16px;
+  }
+
+  .content {
+    max-width: 1280px;
+  }
+
+  .section {
+    padding: 48px;
+  }
+
+  .jumbotron {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+
+  .jumbotron__desc-container {
+    order: -1;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .jumbotron__desc-container h1 {
+    font-size: 2.75em;
+    width: 75%;
+  }
+
+  .jumbotron__desc-container p {
+    font-size: 1.4em;
+    margin: 0 0 24px 0;
+  }
+
+  .jumbotron__desc-container a {
+    text-align: center;
+    font-size: 1.4em;
+    width: 30%;
+  }
+
+  .jumbotron__image-box {
+    width: 49%;
+  }
+
+  .jumbotron__image-box img {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .about {
+    gap: 2%;
+    flex-wrap: wrap;
+  }
+
+  .about__desc h1 {
+    font-size: 2.75em;
+    text-align: right;
+
+  }
+
+  .about__desc p {
+    font-size: 1.4em;
+    text-align: right;
+  }
+
+  .about__image {
+    width: 48%;
+  }
+
+  .feature h1 {
+    font-size: 2.75em;
+  }
+
+  .feature__description {
+    font-size: 1.4em;
+  }
+
+  .feature__container {
+    max-width: 60%;
+  }
+
+  .feature__container__card h3 {
+    font-size: 1.2em;
+  }
+
+  .feature__container__card p {
+    font-size: 1em;
+  }
+
+  .latest-recipe h1 {
+    font-size: 2.75em;
+    text-align: left;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .latest-recipe p {
+    font-size: 1.4em;
+    text-align: left;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .latest-recipe__recipe-container {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 75%;
+    margin: 0 auto 40px;
+  }
+
+  .recipe-item .recipe-item__content {
+    padding: 12px;
+  }
+
+  .recipe-item .recipe-item__content h3 {
+    font-size: 0.875em;
+  }
+
+  .recipe-item__content__icons__icon span {
+    font-size: 0.875em;
+  }
+
+  .recipe-item__content__icons__icon p {
+    font-size: 0.625em;
+  }
+
+  .latest-recipe__btn-selengkapnya {
+    width: 15%;
+    font-size: 1.4em;
+  }
+
+  .latest-recipe__decoration-1 {
+    width: 80px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .latest-recipe__decoration-2 {
+    width: 70px;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .team h1 {
+    font-size: 2.75em;
+  }
+
+  .team p {
+    font-size: 1.4em;
+  }
+
+  .team__description {
+    font-size: 1.4em;
+  }
+
+  .team__container {
+    max-width: 75%;
+  }
+
+  .team__container__card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .team__container__card___content p {
+    margin-bottom: 8px;
+    font-size: 1em;
+  }
+
+  .team__container__card___content a {
+    font-size: 1.4em;
+    padding: 4px;
+  }
+
+  .recipes__wrapper {
+    display: flex;
+    gap: 48px;
+  }
+
+  .recipes__search-bar input {
+    padding: 16px;
+  }
+
+  .recipes__title {
+    font-size: 2.75em;
+    margin-block: 24px;
+  }
+
+  .recipes__filter-toggle {
+    display: none;
+  }
+
+  .recipes__filter-card-wrapper {
+    display: block;
+    padding: 0px;
+    position: static;
+    max-width: 300px;
+    background-color: transparent;
+  }
+
+  .recipes__filter-card {
+    width: 100%;
+  }
+
+  .recipes__filter-card__close {
+    display: none;
+  }
+
+  .recipes__filter-button__mobile {
+    display: none;
+  }
+
+  .recipes__filter-button__desktop {
+    display: block;
+  }
+
+  .recipes__filter-card label {
+    font-size: 1.25em;
+  }
+
+  .recipes__filter-card .label-inner {
+    font-size: 1em;
+  }
+
+  .recipes__filter-card .label-inner-checkbox {
+    font-size: 1em;
+  }
+
+  .recipes__filter-card__diet input {
+    margin-bottom: 0.875em;
+  }
+
+  .recipes__filter-card__allergy input {
+    margin-bottom: 0.875em;
+  }
+
+  .recipes__filter-card select {
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .recipes__recipe-container {
+    grid-template-columns: repeat(4, 1fr);
+    align-self: flex-start;
+  }
+
+  .article__title {
+    font-size: 2.75em;
+  }
+
+  .article__article-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  .recipe-detail {
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .recipe-detail__title {
+    width: 100%;
+  }
+
+  .recipe-detail__left-side {
+    width: 70%;
+  }
+
+  .recipe-detail__right-side {
+    width: 26%;
+  }
+
+  .favorite-recipes__title {
+    font-size: 2.75em;
+  }
+
+  .favorite-recipes__recipe-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  footer p {
+    font-size: 1.25em;
+  }
+}
